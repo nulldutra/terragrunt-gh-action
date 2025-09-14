@@ -1,0 +1,28 @@
+name: 'Terragrunt GitHub Actions'
+description: 'Run terragrunt commands via GitHub Actions'
+author: 'Gabriel M. Dutra <nulldutra@gmail.com'
+
+inputs:
+  tf_version:
+    description: 'Terraform binary version'
+    required: true
+
+  tg_command:
+    description: 'Run terragrunt command'
+    required: true
+
+  tg_working_dir:
+    description: 'Terragrunt working dir'
+    required: true
+
+  tg_version:
+    description: 'Terragrunt binary version'
+    required: true
+
+  git_ssh_key:
+    description: 'SSH key to clone terragrunt project'
+    required: true
+
+runs:
+  using: 'docker'
+  image: './Dockerfile'
