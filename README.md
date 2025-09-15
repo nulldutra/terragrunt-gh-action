@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Terragrunt init
-        uses: nulldutra/terragrunt-github-actions@v1
+        uses: nulldutra/terragrunt-gh-action@v1
         with:
           tf_version: 1.0.6
           tg_version: 0.36.7
