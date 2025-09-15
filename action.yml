@@ -1,6 +1,6 @@
-name: 'Terragrunt GitHub Actions'
+name: 'nulldutra - Terragrunt GitHub Action'
 description: 'Run terragrunt commands via GitHub Actions'
-author: 'Gabriel M. Dutra <nulldutra@gmail.com'
+author: 'Gabriel M. Dutra <hi@nulldutra.me'
 
 inputs:
   tf_version:
